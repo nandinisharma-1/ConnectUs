@@ -10,10 +10,15 @@ The database layer uses MongoDB, a NoSQL database well-suited for handling real-
 Key Features
 
 ✅ User Authentication & Authorization – Secure signup/login with encrypted password storage (bcrypt + JWT).
+
 ✅ Real-Time Messaging – One-to-one and group chat functionality with Socket.IO.
+
 ✅ Message Persistence – Chat history stored in MongoDB, retrievable on login.
+
 ✅ User Status – Online/offline presence indication.
+
 ✅ Secure Data Storage – Encrypted storage of sensitive user details in MongoDB.
+
 ✅ Scalable Architecture – Supports multiple concurrent users with efficient socket management.
 
 Future improvements may include media sharing, notifications, friend management, and cloud deployment. Overall, ConnectUs demonstrates the power of the MERN stack in building a secure, scalable, and real-time communication platform.
