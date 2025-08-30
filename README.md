@@ -1,7 +1,7 @@
 # ConnectUs
 ConnectUs is a full stack real-time chatting app built with React.js, Node.js, Express.js, and MongoDB. It uses Socket.IO for instant communication, JWT for authentication, and bcrypt for secure password storage. User data is encrypted, ensuring privacy and security.The app leverages Socket.IO to establish low-latency, bi-directional connections, ensuring that messages are delivered instantly without page refreshes. It supports both one-to-one and group conversations, making it suitable for personal as well as collaborative communication.
 
-The frontend is developed using React.js, which delivers a responsive, interactive, and user-friendly interface. React components ensure a smooth user experience with dynamic updates, while styling libraries such as CSS, Tailwind, or Material UI can be used for an appealing design. API requests from the client are managed using Axios or Fetch API, maintaining efficient communication with the server.
+The frontend is developed using React.js, which delivers a responsive, interactive, and user-friendly interface. React components ensure a smooth user experience with dynamic updates, while styling libraries such as CSS can be used for an appealing design. API requests from the client are managed using Fetch API, maintaining efficient communication with the server.
 
 On the backend, the application is powered by Node.js and Express.js, which handle API routes, authentication, and socket connections. Security is a core focus: user authentication is implemented using JWT (JSON Web Tokens), while bcrypt.js is used to hash and store passwords securely. This ensures that sensitive credentials are never stored in plain text.
 
